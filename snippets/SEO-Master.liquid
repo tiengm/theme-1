@@ -8,7 +8,10 @@
             "url": "https://{{ shop.domain }}",
             "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://{{ shop.domain }}/search?q={query}",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://{{ shop.domain }}/search?q={query}"
+                },
                 "query-input": "required name=query"
                 }
         }
@@ -112,7 +115,7 @@
     {%- if shop.metafields.structuredData.collectionOn != "0" -%}
     
         {% if template contains "collection" %}
-
+            {%- assign days_product_price_valid_until = 10 | times: 86400 -%}
             {%- assign girafflyIsBarCodeAvailable = false -%}
             {%- assign girafflyIsValidGtinLength = false -%}
             {%- assign girafflyGtinString = "gtin" -%}
@@ -222,7 +225,7 @@
                         {%- endif%}
 
                         "description" : "{{ product.description | strip_newlines | strip_html | escape_once | replace: '\', '\\\\' }}",
-                        "brand": { "name": "{{ product.vendor | strip_newlines | strip_html | escape_once | replace: '\', '\\\\' }}"},
+                        "brand": { "@type": "Brand","name": "{{ product.vendor | strip_newlines | strip_html | escape_once | replace: '\', '\\\\' }}"},
                         "sku": "{{product.selected_or_first_available_variant.sku | replace: '"', ''}}",
                         {%- if girafflyHasReviews and girafflyReviewAppDescription and girafflyRatingValue and girafflyReviewCount -%}
                         "aggregateRating": {
@@ -241,6 +244,7 @@
                                 "mpn": "{{variant.barcode}}",
                                 {%- endif%}
                                 "priceCurrency" : "{{ shop.currency }}" ,
+                                "priceValidUntil": "{{ 'now' | date: '%s' | plus: days_product_price_valid_until | date: '%Y-%m-%d'}}",
                                 "price" : "{{ variant.price | money_without_currency | split: "" | reverse | join: "" | remove_first: "00." | split: "" | reverse | join: "" | replace: ",", "" }}" ,
                                 "availability" : "http://schema.org/{%if variant.available%}InStock{%else%}OutOfStock{%endif%}" ,
                                 "itemCondition": "http://schema.org/NewCondition",
@@ -272,6 +276,7 @@
     {%- if shop.metafields.structuredData.productOn != "0" -%}
 
         {% if template contains "product" %}
+            {%- assign days_product_price_valid_until = 10 | times: 86400 -%}
             {%- assign girafflyIsBarCodeAvailable = false -%}
             {%- assign girafflyIsValidGtinLength = false -%}
             {%- assign girafflyGtinString = "gtin" -%}
@@ -399,6 +404,7 @@
                         "mpn": "{{variant.barcode}}",
                         {%- endif%}
                         "priceCurrency" : "{{ shop.currency }}" ,
+                        "priceValidUntil": "{{ 'now' | date: '%s' | plus: days_product_price_valid_until | date: '%Y-%m-%d'}}",
                         "price" : "{{ variant.price | money_without_currency | split: "" | reverse | join: "" | remove_first: "00." | split: "" | reverse | join: "" | replace: ",", "" }}" ,
                         "availability" : "http://schema.org/{%if variant.available%}InStock{%else%}OutOfStock{%endif%}" ,
                         "itemCondition": "http://schema.org/NewCondition",
