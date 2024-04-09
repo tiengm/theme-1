@@ -265,6 +265,30 @@
     },
     "video": {
       "load_video": "Load video: {{ description }}"
+    },
+    "ecom-6604da736b39d4d451070a22-page": {
+      "product_option_swatch_mxijwdfs0zp_html": "Color",
+      "view_more_text_mxijwdfs0zp_html": "View more",
+      "add_to_cart_mxijwdfs0zp_html": "Add to cart ",
+      "product_unavailable_mxijwdfs0zp_html": "Unavailable",
+      "product_soldout_mxijwdfs0zp_html": "Sold out",
+      "added_cart_text_mxijwdfs0zp_html": "Added to cart",
+      "added_cart_message_mxijwdfs0zp_html": "Added to cart",
+      "pre_order_mxijwdfs0zp_html": "Pre order",
+      "sold_out_text_mxijwdfs0zp_html": "Sold out",
+      "quick_shop_text_mxijwdfs0zp_html": "Quick Shop",
+      "sold_text_mxijwdfs0zp_html": "Sold",
+      "sale_text_mxijwdfs0zp_html": "Sale",
+      "sale_badge_mxijwdfs0zp_html": "Save {{sale}}",
+      "countdown_title_mxijwdfs0zp_html": " ",
+      "no_product_item_mxijwdfs0zp_html": "There are no product yet!",
+      "text_week_mxijwdfs0zp_html": "[%-W] week%!W",
+      "text_day_mxijwdfs0zp_html": "[%-d] day%!D",
+      "text_hour_mxijwdfs0zp_html": "[%-H] hr%!H",
+      "text_minute_mxijwdfs0zp_html": "[%-M] min%!M",
+      "text_second_mxijwdfs0zp_html": "[%-S] sec%!S",
+      "Savesale_mxijwdfs0zp_html": "Save {{sale}}",
+      "buttoncontent_8hqrvkz3vga_html": "Button Default"
     }
   },
   "localization": {
