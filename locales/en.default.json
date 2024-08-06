@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "password_page": {
@@ -487,7 +496,8 @@
     },
     "ProductList": {
       "product_not_found": "Product Not Found!",
-      "no_products_found": "No products found!"
+      "no_products_found": "No products found!",
+      "no_related_products": "No related products!"
     },
     "ProductTitle": {
       "product_not_found": "Product Not Found"
