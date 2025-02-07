@@ -22,7 +22,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_label_2": ""
           }
         }
@@ -33,6 +33,13 @@
       ],
       "settings": {
         "desktop_text_box_position": "flex-end"
+      }
+    },
+    "gp_shopify_original_section_552619999232000793": {
+      "type": "gp-section-552619999232000793",
+      "settings": {
+        "section_preload": "true",
+        "checksum": "dfae69e2474fee696f56eff38a322ad14f89de71409dbac85016ff0a51096ef9_1_1"
       }
     },
     "rich_text": {
@@ -119,6 +126,7 @@
   },
   "order": [
     "image_banner",
+    "gp_shopify_original_section_552619999232000793",
     "rich_text",
     "featured_products",
     "collage",
