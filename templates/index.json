@@ -8,6 +8,7 @@
  * ------------------------------------------------------------
  */
 {
+  "layout": "theme.test",
   "sections": {
     "image_banner": {
       "type": "image-banner",
