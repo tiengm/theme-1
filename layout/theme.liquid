@@ -126,7 +126,7 @@
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   {% render 'gp-head' %}
-</head>
+{% include 'pagefly-app-header' %}</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -134,6 +134,7 @@
     </a>
 
     {% section 'announcement-bar' %}
+    {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
