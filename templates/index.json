@@ -26,11 +26,16 @@
             "button_link_1": "shopify:\/\/collections\/all",
             "button_label_2": ""
           }
-        }
+        },
+        "text": {
+          "type": "text",
+          "settings": {}
+        },
       },
       "block_order": [
         "heading",
-        "button"
+        "button",
+        "text"
       ],
       "settings": {
         "desktop_text_box_position": "flex-end"
