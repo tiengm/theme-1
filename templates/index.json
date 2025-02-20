@@ -121,6 +121,10 @@
         "column3": {
           "type": "column",
           "settings": {}
+        },
+        "column4": {
+          "type": "column",
+          "settings": {}
         }
       },
       "block_order": [
