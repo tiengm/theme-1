@@ -30,7 +30,8 @@
         "text": {
           "type": "text",
           "settings": {}
-        },
+        }
+        
       },
       "block_order": [
         "heading",
