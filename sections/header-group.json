@@ -9,7 +9,12 @@
  */
 {
   "type": "header",
-  "name": "Group name",
-  "sections": {},
-  "order": []
+  "name": "Header Group",
+  "sections": {
+    "header": {
+     "type": "header",
+     "settings": {}
+   }
+  },
+  "order": ["header"]
 }
