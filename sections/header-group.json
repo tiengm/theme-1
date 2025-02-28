@@ -20,5 +20,5 @@
      "settings": {}
    }
   },
-  "order": ["announcement-bar", "header"]
+  "order": ["header", "announcement-bar"]
 }
