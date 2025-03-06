@@ -11,6 +11,10 @@
   "type": "header",
   "name": "Header Group",
   "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {}
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -22,13 +26,27 @@
         "enable_sticky_header": true
       }
     },
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "settings": {}
+    "1741228180b241bac5": {
+      "type": "apps",
+      "blocks": {
+        "releasit_cod_form_button_app_block_zRGf6d": {
+          "type": "shopify://apps/releasit-cod-form/blocks/button-app-block/72faf214-4174-4fec-886b-0d0e8d3af9a2",
+          "settings": {
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "releasit_cod_form_button_app_block_zRGf6d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "1741228180b241bac5"
   ]
 }
