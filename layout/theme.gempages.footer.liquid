@@ -126,15 +126,16 @@
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   {% render 'gp-head' %}
-</head>
+{% include 'pagefly-app-header' %}</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
 
-    <div style="display:none"> {% section 'announcement-bar' %} </div>
-    <div style="display:none"> {% section 'header' %} </div>
+    <!-- <div style="display:none"> {% section 'announcement-bar' %} </div> -->
+    <!-- <div style="display:none"> {% section 'header' %} </div> -->
+    <div style="display:none"> {% sections 'header-group' %} </div>
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
