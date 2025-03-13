@@ -12,13 +12,13 @@
     "main": {
       "type": "main-page",
       "settings": {}
-    },
-        "main": {
+    },"main2": {
       "type": "main-page",
       "settings": {}
-    }
+    },
   },
   "order": [
-    "main"
+    "main",
+    "main2"
   ]
 }
