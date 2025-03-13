@@ -394,6 +394,16 @@
       "textcontent_pv6mwkzjfbl_html": "Stay Updated",
       "headingtext_zye6a0z4bxj_html": "With Our Newsletter",
       "textcontent_0j1rk7wyepru_html": "Get the Latest News, Deals, and Tips Straight to Your Inbox<div></div>"
+    },
+    "ecom-global-section-section": {
+      "textcontent_o8vrrutrm9j_html": "Stay Updated",
+      "headingtext_mi01r8z22d_html": "With Our Newsletter",
+      "textcontent_rudp54t8n3s_html": "Get the Latest News, Deals, and Tips Straight to Your Inbox<div></div>",
+      "Emailaddress_qs0eahma0bm_html": "Email address",
+      "submit_title_qs0eahma0bm_html": "Sign up",
+      "success_message_qs0eahma0bm_html": "Subscribed successfully!",
+      "error_title_qs0eahma0bm_html": "Opps!. An error has occurred",
+      "error_already_qs0eahma0bm_html": "Email have already subscribed!"
     }
   },
   "localization": {
