@@ -9,15 +9,19 @@
  */
 {
   "sections": {
-    "gp_section_558383536172696819": {
-      "type": "gp-section-558383536172696819",
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "form": {
+      "type": "contact-form",
       "settings": {
-        "section_preload": "true",
-        "checksum": "98b70563826489cd7c18fbe563b1e0c92d3248cb188ba221e0d3a34bd00d69df_1_1"
+        "heading": ""
       }
     }
   },
   "order": [
-    "gp_section_558383536172696819"
+    "main",
+    "form"
   ]
 }
