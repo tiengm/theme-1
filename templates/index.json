@@ -63,6 +63,10 @@
       "settings": {
         "checksum": "c1666aa5c693db36a364636928f10334e94b060cc314323bbe27559ea43c994e_1_1"
       }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {}
     }
   },
   "order": [
@@ -74,6 +78,7 @@
     "gp_section_557559592851080272",
     "gp_section_557559594797237241",
     "gp_section_557559592985297913",
-    "gp_section_557559593270510672"
+    "gp_section_557559593270510672",
+    "pagefly-home"
   ]
 }
