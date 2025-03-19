@@ -12,12 +12,7 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand"
-          }
-        },
+        
         "button": {
           "type": "buttons",
           "settings": {
@@ -28,7 +23,6 @@
         }
       },
       "block_order": [
-        "heading",
         "button"
       ],
       "settings": {
