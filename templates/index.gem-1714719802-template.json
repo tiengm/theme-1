@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -9,18 +18,10 @@
             "heading": "Talk about your brand"
           }
         },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_label_2": ""
-          }
-        }
+        
       },
       "block_order": [
         "heading",
-        "button"
       ],
       "settings": {
         "desktop_text_box_position": "flex-end"
@@ -31,18 +32,15 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "settings": {
-          }
+          "settings": {}
         },
         "text": {
           "type": "text",
-          "settings": {
-          }
+          "settings": {}
         },
         "button": {
           "type": "button",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -50,8 +48,7 @@
         "text",
         "button"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "featured_products": {
       "type": "featured-collection",
@@ -66,18 +63,15 @@
       "blocks": {
         "video": {
           "type": "video",
-          "settings": {
-          }
+          "settings": {}
         },
         "product": {
           "type": "product",
-          "settings": {
-          }
+          "settings": {}
         },
         "collection": {
           "type": "collection",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -85,31 +79,26 @@
         "product",
         "collection"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "video": {
       "type": "video",
-      "settings": {
-      }
+      "settings": {}
     },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
         "column1": {
           "type": "column",
-          "settings": {
-          }
+          "settings": {}
         },
         "column2": {
           "type": "column",
-          "settings": {
-          }
+          "settings": {}
         },
         "column3": {
           "type": "column",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -117,8 +106,7 @@
         "column2",
         "column3"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
