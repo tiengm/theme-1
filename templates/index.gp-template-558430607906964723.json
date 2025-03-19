@@ -1,0 +1,86 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "gp_section_558430624432522344": {
+      "type": "gp-section-558430624432522344",
+      "settings": {
+        "section_preload": "true",
+        "checksum": "31bb9c326bc9987cd090af278ca798808b75a957d77485f7a0d62650ad597932_1_1"
+      }
+    },
+    "gp_section_558430624247972766": {
+      "type": "gp-section-558430624247972766",
+      "settings": {
+        "checksum": "07b0479a8aad98bf6f436041ef766f83138567b613e2b7354e693db31447e49f_1_1"
+      }
+    },
+    "gp_section_558430624197641034": {
+      "type": "gp-section-558430624197641034",
+      "settings": {
+        "checksum": "2869fc357fd78838013f555b73d04bfcee641a9551cb7d4366e3405fc3188b37_1_1"
+      }
+    },
+    "gp_section_558430624281593075": {
+      "type": "gp-section-558430624281593075",
+      "settings": {
+        "checksum": "79051645eaa4013369610fd84db166db8bfbd308c9279c4bf10f441ad0a24263_1_1"
+      }
+    },
+    "gp_section_558430625036502259": {
+      "type": "gp-section-558430625036502259",
+      "settings": {
+        "checksum": "18495c13dbf9130897da09a21d89ad87fd0857e2c5c607414fddeee16ba714f0_1_1"
+      }
+    },
+    "gp_section_558430624650625866": {
+      "type": "gp-section-558430624650625866",
+      "settings": {
+        "checksum": "8485ad1ca1d86c9f39d81db8958f90ddd8e0e2e2af3d88045e1bd3da16b8ceac_1_1"
+      }
+    },
+    "gp_section_558430624851952542": {
+      "type": "gp-section-558430624851952542",
+      "settings": {
+        "checksum": "a04143b7cd311dd7ac9be7af774c17d749e845aba2d01f49eaf383acdd5352e5_1_1"
+      }
+    },
+    "gp_section_558430624633848734": {
+      "type": "gp-section-558430624633848734",
+      "settings": {
+        "checksum": "56440167025528c752785fdcf8a39ba16402a428628ed05272ded771ae0a0439_1_1"
+      }
+    },
+    "gp_section_558430625019724618": {
+      "type": "gp-section-558430625019724618",
+      "settings": {
+        "checksum": "d32deaa115f290cc634ea4d6f5973b6a0f3d6a40c71419141f411ee74e7099de_1_1"
+      }
+    },
+    "gp_section_558430624650626291": {
+      "type": "gp-section-558430624650626291",
+      "settings": {
+        "checksum": "ea1a408c84c7cfbd39ebdf67db190199002f655f0e13f7d82a0bfc907dc46e3a_1_1"
+      }
+    }
+  },
+  "order": [
+    "gp_section_558430624432522344",
+    "gp_section_558430624247972766",
+    "gp_section_558430624197641034",
+    "gp_section_558430624281593075",
+    "gp_section_558430625036502259",
+    "gp_section_558430624650625866",
+    "gp_section_558430624851952542",
+    "gp_section_558430624633848734",
+    "gp_section_558430625019724618",
+    "gp_section_558430624650626291"
+  ]
+}
