@@ -18,10 +18,18 @@
             "heading": "Talk about your brand"
           }
         },
-        
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_label_2": ""
+          }
+        }
       },
       "block_order": [
         "heading",
+        "button"
       ],
       "settings": {
         "desktop_text_box_position": "flex-end"
