@@ -8,14 +8,16 @@
  * ------------------------------------------------------------
  */
 {
-  "layout": "theme",
   "sections": {
-    "ecom-67d2b7a009b8b7f5c3098dcd-product": {
-      "type": "ecom-67d2b7a009b8b7f5c3098dcd-product",
-      "settings": {}
+    "gp_shopify_original_section_557400334540997430": {
+      "type": "gp-section-557400334540997430",
+      "settings": {
+        "section_preload": "true",
+        "checksum": "6faf6f68d48cfd36f218d3d39e11bc8e1c6d034e32297e146f0f637346f17d89_1_1"
+      }
     }
   },
   "order": [
-    "ecom-67d2b7a009b8b7f5c3098dcd-product"
+    "gp_shopify_original_section_557400334540997430"
   ]
 }
